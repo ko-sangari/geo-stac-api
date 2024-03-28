@@ -56,8 +56,8 @@ Key Details:
 ## ⭕ Before you begin
 Before you begin, please follow these steps:
 
-1. Create a folder named `secret` in the `root` directory.
-2. Move the `.env.template` file which is in the root directory into the each `secret` folder.
+1. Create a folder named `secrets` in the `root` directory.
+2. Move the `.env.template` file which is in the root directory into the each `secrets` folder.
 3. Rename the `.env.template` file to `.env`.
 4. Update the variables in the `.env` file according to your local environment.
 

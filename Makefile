@@ -1,4 +1,3 @@
-
 coffee:
 	@printf 'Be Happy Even if Things Aren’t Perfect Now. 🎉🎉🎉\n'
 	@printf 'Enjoy your coffee! ☕\n'

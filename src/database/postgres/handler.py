@@ -21,16 +21,6 @@ class PostgreSQLHandler(PostgreSQLCore):
     A subclass of PostgreSQLHandler to handle database queries.
     """
 
-    def __init__(self, db_url: URL = None, database: str = None) -> None:
-        """
-        Initializes the PostgreSQLCore with a database URL and connects to it.
-
-        Args:
-            db_url (str, optional): The database URL. Defaults to None.
-            database (str, optional): The name of the database to connect to. Defaults to None.
-        """
-        super().__init__(db_url, database)
-
     async def retrieve_satellite_image(self, geojson: GeoJSONSchema) -> List[GeoField]:
         """
         Retrieves satellite images for the given GeoJSON.
